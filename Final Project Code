@@ -116,13 +116,3 @@ tab_model(lm(as.numeric(OBS_VALUE) ~ TIME_PERIOD, data = pre_int))
 # Look at regression line for post-intervention data
 tab_model(lm(as.numeric(OBS_VALUE) ~ TIME_PERIOD, data = post_int))
 ```
-
-
-
-
-
-
-
-
-
-
